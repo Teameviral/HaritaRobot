@@ -1,25 +1,27 @@
-"""
-Fully Written by RoseLoverX
-"""
-from Evie import tbot, CMD_HELP, OWNER_ID
+#Written By Yacha on Ptb and aiorogram
+#Written By Avishek Bhattacharjee on Telethon
+#Improved version completely written by RoseLoverX on Telethon
+#By Eviral (github.com/TeamEviral ; t.me/Eviral)
+#Don't Forget to give credit and make your source public.
+#If you want to improve anything, then you can pull it or join @TheCodeTech.
+#No Copyright Allowed
+
+from Harita import tbot, CMD_HELP, OWNER_ID
 import os, re, csv, json, time, uuid, pytz
 from datetime import datetime
-from Evie.function import is_admin
+from Harita.function import is_admin
 from io import BytesIO
-import Evie.modules.sql.feds_sql as sql
+import Harita.modules.sql.feds_sql as sql
 from telethon import *
 from telethon import Button
 from telethon.tl import *
 from telethon.tl.types import User
-from Evie import *
+from Harita import *
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon.tl.types import MessageMediaDocument, DocumentAttributeFilename
-from Evie.events import register
+from Harita.events import register
 
 
-"""
-Fully Written by RoseLoverX
-"""
 
 from telethon.tl.types import ChatBannedRights
 from telethon.tl.functions.channels import EditBannedRequest
@@ -36,9 +38,7 @@ BANNED_RIGHTS = ChatBannedRights(
 )
 
 
-"""
-Fully Written by RoseLoverX
-"""
+
 
 async def get_user_from_event(event):
     """ Get the user from argument or replied message. """
@@ -87,9 +87,7 @@ def is_user_fed_owner(fed_id, user_id):
         return False
 
 
-"""
-Fully Written by RoseLoverX
-"""
+
 @register(pattern="^/newfed ?(.*)")
 async def new(event):
  if not event.is_private:
@@ -259,7 +257,7 @@ async def p(event):
             
 
 """
-Fully Written by RoseLoverX
+HaritaRobot Features
 """
 @tbot.on(events.CallbackQuery(pattern=r"fkfed(\_(.*))"))
 async def smex_fed(event):
@@ -379,9 +377,7 @@ async def info(event):
   await tbot.send_message(event.chat_id, caption, buttons=buttons)
 
 
-"""
-Fully Written by RoseLoverX
-"""
+
 @tbot.on(events.CallbackQuery(pattern=r"fedadm(\_(.*))"))
 async def smex_fed(event):
   if event.is_group:
@@ -414,9 +410,7 @@ async def smex_fed(event):
    print(e)
   await event.reply(text)
 
-"""
-Fully Written by RoseLoverX
-"""
+
 @register(pattern="^/fban ?(.*)")
 async def _(event):
     
@@ -581,9 +575,6 @@ async def _(event):
                             continue
     
 
-"""
-Fully Written by RoseLoverX
-"""
 @register(pattern="^/unfban ?(.*)")
 async def unfban(event):
     user = event.sender
@@ -711,9 +702,7 @@ async def ligunset(event):
  setlog = sql.set_fed_log(args, None)
  await event.reply(f"The {name} federation has had its log location unset.")
 
-"""
-Fully Written by AmarnathCdj aka RoseloverX
-"""
+
 @register(pattern="^/subfed ?(.*)")
 async def sub(event):
  args = event.pattern_match.group(1)
@@ -743,9 +732,7 @@ async def sub(event):
  addsub = sql.add_sub(fed_id, args)
  await event.reply(f"Federation {name} has now subscribed to {sname}. All fedbans in {sname} will now take effect in both feds.")
 
-"""
-Fully Written by RoseLoverX aka AmarnathCdj
-"""
+
 
 @register(pattern="^/unsubfed ?(.*)")
 async def unsub(event):
@@ -828,9 +815,7 @@ async def fstat(event):
   await mex.edit(flist)
     
 
-"""
-Fully Written by RoseLoverX aka AmarnathCdj
-"""
+
 
 
 @register(pattern="^/fedexport$")
