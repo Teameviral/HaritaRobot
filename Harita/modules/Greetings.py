@@ -1,20 +1,20 @@
 from telethon import events
-from Evie import tbot, BOT_ID, MONGO_DB_URI, CMD_HELP
+from Harita import tbot, BOT_ID, MONGO_DB_URI, CMD_HELP
 from pymongo import MongoClient
-from Evie.events import register
+from Harita.events import register
 import os
-from Evie.function import can_change_info, is_admin
+from Harita.function import can_change_info, is_admin
 from telethon import *
 from telethon.tl import *
 from telethon.utils import pack_bot_file_id
 
-from Evie.modules.sql.welcome_sql import (
+from Harita.modules.sql.welcome_sql import (
     add_welcome_setting,
     get_current_welcome_settings,
     rm_welcome_setting,
     update_previous_welcome,
 )
-from Evie.modules.sql.welcome_sql import (
+from Harita.modules.sql.welcome_sql import (
     add_goodbye_setting,
     get_current_goodbye_settings,
     rm_goodbye_setting,
@@ -22,7 +22,7 @@ from Evie.modules.sql.welcome_sql import (
 )
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["evie"]
+db = client["harita"]
 botcheck = db.checkbot
 verified_user = db.user_verified
 
