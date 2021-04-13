@@ -1,3 +1,7 @@
+#Written By Avishek Bhattacharjee
+#Ported By Eviral (github.com/TeamEviral ; t.me/Eviral)
+#Don't Forget to give credit and make your source public.
+
 import os
 import telethon
 from telethon.tl.functions.users import GetFullUserRequest
@@ -13,16 +17,16 @@ from math import ceil
 import requests
 
 from telethon import Button, custom, events, functions
-from Evie.events import register
+from Harita.events import register
 
 from pymongo import MongoClient
 
-from Evie.modules.sql.setbio_sql import set_bio, rm_bio, check_bio_status, is_bio, get_all_bio_id
-from Evie.modules.sql.setbio_sql import set_bio, rm_bio
-from Evie.modules.sql.setbio_sql import SUDO_USERS as boss
-from Evie import tbot, OWNER_ID, CMD_HELP, ubot, StartTime, MONGO_DB_URI, BOT_ID
+from Harita.modules.sql.setbio_sql import set_bio, rm_bio, check_bio_status, is_bio, get_all_bio_id
+from Harita.modules.sql.setbio_sql import set_bio, rm_bio
+from Harita.modules.sql.setbio_sql import SUDO_USERS as boss
+from Harita import tbot, OWNER_ID, CMD_HELP, ubot, StartTime, MONGO_DB_URI, BOT_ID
 import datetime, time
-from Evie.function import is_admin, bio
+from Harita.function import is_admin, bio
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
