@@ -1,3 +1,5 @@
+#By Eviral (github.com/TeamEviral ; t.me/Eviral)
+
 from Harita import tbot, BOT_ID
 from Harita.function import sudo
 from telethon.errors import (
