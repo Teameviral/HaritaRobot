@@ -1,14 +1,14 @@
-from Evie import CMD_HELP, tbot
+from Harita import CMD_HELP, tbot
 import os
-from Evie.events import register
-from Evie.function import is_admin, can_change_info
+from Harita.events import register
+from Harita.function import is_admin, can_change_info
 import asyncio
 import re
 from telethon.tl import types
 
 from telethon import utils, Button
 from telethon import events
-from Evie.modules.sql.filters_sql import (
+from Harita.modules.sql.filters_sql import (
     add_filter,
     get_all_filters,
     remove_filter,
