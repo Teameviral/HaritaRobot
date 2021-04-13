@@ -1,12 +1,16 @@
-from Evie import tbot, OWNER_ID, DEV_USERS
-from Evie import MONGO_DB_URI, BOT_ID, GBAN_LOGS
+#By Eviral (github.com/TeamEviral ; t.me/Eviral)
+#By RoseLoverX Telegram
+#Don't Forget to give credit and make your source public.
+
+from Harita import tbot, OWNER_ID, DEV_USERS
+from Harita import MONGO_DB_URI, BOT_ID, GBAN_LOGS
 from pymongo import MongoClient
-from Evie.function import is_admin, sudo
+from Harita.function import is_admin, sudo
 from telethon import events
-from Evie.events import register
+from Harita.events import register
 from telethon.tl.functions.users import GetFullUserRequest
-#RoseLoverX
-from Evie.modules.sql.chats_sql import get_all_chat_id
+
+from Harita.modules.sql.chats_sql import get_all_chat_id
 
 from telethon.tl.types import ChatBannedRights
 from telethon.tl.functions.channels import EditBannedRequest
@@ -24,7 +28,7 @@ BANNED_RIGHTS = ChatBannedRights(
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["evie"]
+db = client["harita"]
 gbanned = db.gban
 gmuted = db.gmute #RoseloverX
 
