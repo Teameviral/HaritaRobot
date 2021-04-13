@@ -1,4 +1,5 @@
 #By Eviral (github.com/TeamEviral ; t.me/Eviral)
+#By RoseLoverx Telegram
 
 from Harita import tbot, BOT_ID
 from Harita.function import sudo
