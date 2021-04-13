@@ -1,0 +1,91 @@
+{
+      "name": "Harita",
+      "description": "A Telethon based Telegram group management bot.",
+      "logo": "https://telegra.ph/file/8f121a6cbded3de42ffdd.jpg",
+      "keywords": [
+         "Telethon",
+         "Telegram",
+         "Group",
+         "manager",
+         "Miley"
+      ],   
+   "repository": "https://github.com/TeamEviral/HaritaRobot",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }     
+  ],      
+   "env": {
+      "TOKEN": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": ""
+      },
+      "API_KEY": {
+         "description": "Get API_KEY from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": ""
+      },
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": ""
+      },
+      "OWNER_USERNAME": {
+         "description": "Your username without the @",
+         "value": "Eviral"
+      },
+      "STRING_SESSION": {
+         "description": "Your Telethon String Session. Create it by repl.it.",
+         "required": true,
+         "value": ""
+      },
+      "MONGO_DB_URI": {
+         "description": "MongoDB Url get from mongodb",
+         "required": true,
+         "value": ""
+      },      
+      "BOT_ID": {
+         "description": "Id of the bot. Get it by using others bot",
+         "required": true,
+         "value": ""
+      },
+      "DEV_USERS": {
+         "description": "Ids of dev users seperated by space",
+         "required": false,
+         "value": ""
+      },
+      "SUDO_USERS": {
+         "description": "Ids of sudo users seperated by space",
+         "required": false,
+         "value": ""
+      },
+      "UPSTREAM_REPO_URL": {
+         "description": "Required for Update module",
+         "required": true,
+         "value": "https://github.com/TeamEviral/HaritaRobot"
+      }
+   },
+   "keywords": [
+      "telegram",
+      "Telethon",
+      "group",
+      "manager",
+      "Miley"
+   ],
+   "name": "Miley",
+   "repository": "https://github.com/Amarnathcdj/Miley"
+}
