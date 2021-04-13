@@ -1,10 +1,14 @@
-from Evie import tbot, BOT_ID
-from Evie.events import register
-from Evie.function import is_admin
-import Evie.modules.sql.fsub_sql as sql
+#Written By Avishek Bhattacharjee
+#Ported By Eviral (github.com/TeamEviral ; t.me/Eviral)
+#Don't Forget to give credit and make your source public.
+
+from Harita import tbot, BOT_ID
+from Harita.events import register
+from Harita.function import is_admin
+import Harita.modules.sql.fsub_sql as sql
 from telethon import events, functions, Button
 import telethon
-#ported by RoseLoverX
+
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import ChatBannedRights
 from telethon.tl import types
