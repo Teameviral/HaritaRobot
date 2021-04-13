@@ -7,14 +7,14 @@ import asyncio
 import io
 import sys
 import traceback
-from Evie import tbot
-from Evie import CMD_HELP, VIRUS_API_KEY
+from Harita import tbot
+from Harita import CMD_HELP, VIRUS_API_KEY
 from telethon import events
 from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import MessageMediaDocument, DocumentAttributeFilename
-from Evie.events import register
-from Evie.function import is_register_admin
+from Harita.events import register
+from Harita.function import is_register_admin
 import cloudmersive_virus_api_client
 
 
