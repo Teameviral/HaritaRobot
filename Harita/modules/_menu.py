@@ -1,17 +1,17 @@
-from Evie import CMD_LIST, CMD_HELP, tbot
+from Harita import CMD_LIST, CMD_HELP, tbot
 import io
 import re
 from math import ceil
 
 from telethon import custom, events, Button
 
-from Evie.events import register
+from Harita.events import register
 
 from telethon import types
 from telethon.tl import functions
 
 from pymongo import MongoClient
-from Evie import MONGO_DB_URI
+from Harita import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -171,8 +171,8 @@ def paginate_help(event, page_number, loaded_plugins, prefix):
                 custom.Button.inline(
                     "Go Back 🔙", data="reopen_again"
                ),
-                custom.Button.inline(
-                    "Next", data="{}_next({})".format(prefix, modulo_page)
+                custom.Button.url(
+                    "Source", data="https://github.com/Teameviral/HaritaRobot/"
                 ),
                 
                 
