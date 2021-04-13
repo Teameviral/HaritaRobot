@@ -1,11 +1,11 @@
-from Harita import CMD_HELP, BOT_ID
-import nude
-import html
-import re
 #Written By Ayush Chatterjee And Avishek Bhattacharjee
 #By Eviral (github.com/TeamEviral ; t.me/Eviral)
 #Don't Forget to give credit and make your source public.
 
+from Harita import CMD_HELP, BOT_ID
+import nude
+import html
+import re
 import emoji
 import asyncio
 from Harita.modules.sql import cleaner_sql as sql
@@ -262,7 +262,8 @@ async def profanity(event):
     if not input == "on" and not input == "off":
         await event.reply("I only understand by on or off")
         return
-
+   
+#By Eviral (github.com/TeamEviral ; t.me/Eviral)
 
 @register(pattern="^/globalmode(?: |$)(.*)")
 async def profanity(event):
