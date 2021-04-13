@@ -1,11 +1,15 @@
-from Evie import CMD_HELP
+#Written By Ayush Chatterjee And Avishek Bhattacharjee
+#By Eviral (github.com/TeamEviral ; t.me/Eviral)
+#Don't Forget to give credit and make your source public.
+
+from Harita import CMD_HELP
 import os
-from Evie import tbot
+from Harita import tbot
 import re
 from telethon import events
-import Evie.modules.sql.blacklist_sql as sql
-import Evie.modules.sql.urlblacklist_sql as urlsql
-from Evie.events import register
+import Harita.modules.sql.blacklist_sql as sql
+import Harita.modules.sql.urlblacklist_sql as urlsql
+from Harita.events import register
 from telethon import types
 from telethon.tl import functions
 import html
