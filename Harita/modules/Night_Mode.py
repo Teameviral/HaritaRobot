@@ -1,9 +1,9 @@
-from Evie.modules.sql.night_mode_sql import add_nightmode, rmnightmode, get_all_chat_id, is_nightmode_indb
+from Harita.modules.sql.night_mode_sql import add_nightmode, rmnightmode, get_all_chat_id, is_nightmode_indb
 from telethon.tl.types import ChatBannedRights
 from apscheduler.schedulers.asyncio import AsyncIOScheduler 
 from telethon import functions
-from Evie.events import register
-from Evie import tbot, CMD_HELP, OWNER_ID
+from Harita.events import register
+from Harita import tbot, CMD_HELP, OWNER_ID
 import os
 from telethon import *
 from telethon import Button, custom, events
