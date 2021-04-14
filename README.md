@@ -1,6 +1,6 @@
 ![Harita](https://telegra.ph/file/8f121a6cbded3de42ffdd.jpg)
 # HaritaRobot
-An Telethon Based Advanced Telegram Group Management Bot
+A Telethon Based Advanced Telegram Group Management Bot
 
 <p align="center">
     <a href="https://github.com/TeamEviral/HaritaRobot/network"><img src="https://img.shields.io/github/forks/TeamEviral/HaritaRobot?style=for-the-badge" alt="GitHub forks" /></a>
