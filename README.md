@@ -1,6 +1,6 @@
 ![Harita](https://telegra.ph/file/8f121a6cbded3de42ffdd.jpg)
 # HaritaRobot
-An Telethon Based Telegram Group Management Bot
+An Telethon Based Advanced Telegram Group Management Bot
 
 <p align="center">
     <a href="https://github.com/TeamEviral/HaritaRobot/network"><img src="https://img.shields.io/github/forks/TeamEviral/HaritaRobot?style=for-the-badge" alt="GitHub forks" /></a>
@@ -18,6 +18,22 @@ An Telethon Based Telegram Group Management Bot
 <p align="center">
   <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
 </p>
+
+Harita is a Telegram group managment bot made using Telethon which makes it modern and faster than most of the exisitng Telegram Chat Managers.
+
+**Harita's features over other bots:**
+- Modern
+- Fast
+- Fully open-source
+- Frequently updated
+- Multi Language Support
+- Advanced Federation System With Buttons
+- Advanced Api
+- Smart Ai System
+- Easy To Use
+
+Can be found on Telegram as [@HaritaRobot](https://t.me/HaritaRobot)</br>
+This runs the stable version, aka [production](https://github.com/TeamEviral/HaritaRobot/tree/main) branch.
 
 ## Support
 <a href="https://t.me/CODETECHORG"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
