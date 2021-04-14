@@ -1,7 +1,7 @@
 import threading
 from sqlalchemy import Column, UnicodeText, Boolean
 
-from Evie.modules.sql import BASE, SESSION
+from Harita.modules.sql import BASE, SESSION
 
 
 class CleanerBlueTextChatSettings(BASE):
