@@ -1,4 +1,4 @@
-from Evie import tbot, ubot, CMD_HELP
+from Harita import tbot, ubot, CMD_HELP
 from bs4 import BeautifulSoup as bs
 import urllib.request as urllib
 import requests
@@ -8,7 +8,7 @@ from io import BytesIO
 import os
 import math
 import datetime
-from Evie import MONGO_DB_URI
+from Harita import MONGO_DB_URI
 
 from telethon.tl.functions.messages import GetStickerSetRequest
 
@@ -19,7 +19,7 @@ from telethon.tl.types import (
     MessageMediaPhoto,
 )
 
-from Evie.events import register
+from Harita.events import register
 from telethon import *
 from telethon import events
 from telethon.tl import functions
