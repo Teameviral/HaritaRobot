@@ -4,8 +4,8 @@ from sqlalchemy import distinct
 from sqlalchemy import func
 from sqlalchemy import String
 from sqlalchemy import UnicodeText
-from Evie.modules.sql import BASE
-from Evie.modules.sql import SESSION
+from Harita.modules.sql import BASE
+from Harita.modules.sql import SESSION
 
 
 class Rules(BASE):
