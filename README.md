@@ -39,7 +39,8 @@ Can be found on Telegram as [@HaritaRobot](https://t.me/HaritaRobot)</br>
 - You need a Telethon string session by using your phone numbers
 - You need to edit _menu.py Under modules if you want to put your own details.
 - You need to update _int_.py if you want to add any new module.
-- Hosting Area (Ubuntu/Heroku/Vps/Digitalocean)
+- Hosting Area and Database (Heroku/Vps/Digitalocean and exc // Elephant SQL Database Preferred)
+
 
 
 ## Support
