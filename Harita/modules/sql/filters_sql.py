@@ -1,5 +1,5 @@
 from sqlalchemy import Column, LargeBinary, Numeric, String, UnicodeText
-from Evie.modules.sql import BASE, SESSION
+from Harita.modules.sql import BASE, SESSION
 
 
 class Filters(BASE):
