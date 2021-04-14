@@ -23,6 +23,11 @@ An Telethon Based Telegram Group Management Bot
 <a href="https://t.me/CODETECHORG"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
 <a href="https://t.me/THECODETECH"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
 
+# String Session - Pyrogram 🖱
+### Repl 🧨
+[![Run on Repl.it](https://repl.it/badge/github/TeamEviral/)](https://replit.com/@Teameviral/GenerateStringSession-1)
+### Locally 🏆
+
 ## Credits
 
 ▪️ [Lonami](https://github.com/Lonami)
