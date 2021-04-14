@@ -65,6 +65,11 @@ and click the below button!  <br />
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamEviral/HaritaRobot)
 
+### Warning
+- Harita is an open source project under gpl v3
+- If you kang any module from this source or if you fork it then Don't forget to make your soure public.
+- If you are caught violating rules, You and your bot will get ban globally in many big places.
+
 
 ## Credits
 
@@ -75,4 +80,3 @@ and click the below button!  <br />
 ▪️ [MrYacha](https://github.com/MrYacha)
 ▪️ [E V I R A L](https://t.me/Eviral)
 ▪️ [Amarnath c](https://github.com/Amarnathcdj)
-
