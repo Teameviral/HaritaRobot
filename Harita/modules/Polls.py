@@ -1,16 +1,16 @@
-from Evie import CMD_HELP, BOT_ID
+from Harita import CMD_HELP, BOT_ID
 import os
-from Evie.function import is_admin
-from Evie import tbot
+from Harita.function import is_admin
+from Harita import tbot
 from telethon import *
 from telethon.tl import *
-from Evie.events import register
+from Harita.events import register
 from pymongo import MongoClient
-from Evie import MONGO_DB_URI
+from Harita import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-dbb = client["evie"]
+dbb = client["harita"]
 poll_id = dbb.pollid
 
 
