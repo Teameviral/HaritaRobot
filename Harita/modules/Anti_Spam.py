@@ -187,15 +187,13 @@ async def _(event):
     if event.is_private:
         return
     approved_userss = approved_users.find({})
-    for ch in approved_userss:
-        iid = ch["id"]
     if approved_userss:
-    for ch in approved_userss: 
-        iid = ch["id"] 
-        userss = ch["user"]
+       for ch in approved_userss:
+           iid = ch["id"] 
+           userss = ch["user"]
     else:
-    iid = None
-    userss = None  
+        iid = None
+        userss = None  
     if event.is_group:
         if await is_register_admin(event.input_chat, event.message.sender_id):
             return
