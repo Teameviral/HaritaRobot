@@ -1,6 +1,6 @@
 import threading
 from sqlalchemy import Column, String, UnicodeText
-from Evie.modules.sql import BASE, SESSION
+from Harita.modules.sql import BASE, SESSION
 
 
 class URLBlackListFilters(BASE):
