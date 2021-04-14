@@ -1,8 +1,8 @@
 from pymongo import MongoClient
-from Evie import MONGO_DB_URI, DEV_USERS, OWNER_ID, BOT_ID, SUDO_USERS, tbot, ubot
-from Evie.events import register
-from Evie import tbot
-from Evie.function import is_admin
+from Harita import MONGO_DB_URI, DEV_USERS, OWNER_ID, BOT_ID, SUDO_USERS, tbot, ubot
+from Harita.events import register
+from Harita import tbot
+from Harita.function import is_admin
 from telethon import events
 import subprocess
 import asyncio
@@ -15,16 +15,16 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 from telethon.errors import *
-from Evie.function import sudo, bio
+from Harita.function import sudo, bio
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["evie"]
+db = client["harita"]
 blacklist = db.black
-from Evie.modules.sql.checkuser_sql import get_all_users
-import Evie.modules.sql.elevated_sql as sql
-from Evie.modules.sql.chats_sql import add_chat, rmchat, is_chat, get_all_chat_id
-from Evie.modules.sql.setbio_sql import set_bio, rm_bio, check_bio_status, is_bio, get_all_bio_id
+from Harita.modules.sql.checkuser_sql import get_all_users
+import Harita.modules.sql.elevated_sql as sql
+from Harita.modules.sql.chats_sql import add_chat, rmchat, is_chat, get_all_chat_id
+from Harita.modules.sql.setbio_sql import set_bio, rm_bio, check_bio_status, is_bio, get_all_bio_id
 
 
 @tbot.on(events.ChatAction)
