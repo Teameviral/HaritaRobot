@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import scoped_session
 from sqlalchemy.orm import sessionmaker
 
-from Evie import DB_URI
+from Harita import DB_URI
 
 
 def start() -> scoped_session:
