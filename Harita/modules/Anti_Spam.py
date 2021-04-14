@@ -186,22 +186,19 @@ async def _(event):
 async def _(event):
     if event.is_private:
         return
+    if event.fwd_from:
+        return
     approved_userss = approved_users.find({})
-    if approved_userss:
-       for ch in approved_userss:
-            iid = ch["id"] 
-            userss = ch["user"]
-    else:
-        iid = None
-        userss = None  
+    for ch in approved_userss:
+        iid = ch["id"]
+        userss = ch["user"]
     if event.is_group:
         if await is_register_admin(event.input_chat, event.message.sender_id):
             return
         elif event.chat_id == iid and event.sender_id == userss:
             return
-        pass
-    else:
-        return
+        else:
+            pass
     if str(event.sender_id) == str(BOT_ID):
         return
     if event.sender_id == OWNER_ID:
