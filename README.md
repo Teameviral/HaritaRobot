@@ -35,11 +35,9 @@ Harita is a Telegram group managment bot made using Telethon which makes it mode
 Can be found on Telegram as [@HaritaRobot](https://t.me/HaritaRobot)</br>
 
 ## Requirements
-- You need to have a *Mongo Database* (Cluster Preferred)
-- You need a Telethon string session by using your phone numbers
-- You need to edit _menu.py Under modules if you want to put your own details.
-- You need to update _int_.py if you want to add any new module.
-- Hosting Area and Database (Heroku/Vps/Digitalocean and exc // Elephant SQL Database Preferred)
+- You need to have a *Mongo Database* (Cluster Preferred).
+- You need a Telethon string session by using your phone numbers.
+- Hosting Area and Database (Heroku/Vps/Digitalocean and exc // Elephant SQL Database Preferred).
 
 
 
