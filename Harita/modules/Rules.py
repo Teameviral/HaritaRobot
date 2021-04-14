@@ -1,10 +1,10 @@
-from Evie import tbot, CMD_HELP
+from Harita import tbot, CMD_HELP
 import os
 from typing import Optional
-import Evie.modules.sql.rules_sql as sql
+import Harita.modules.sql.rules_sql as sql
 from telethon import *
 from telethon.tl import *
-from Evie import *
+from Harita import *
 
 
 async def can_change_info(message):
