@@ -38,7 +38,7 @@ Can be found on Telegram as [@HaritaRobot](https://t.me/HaritaRobot)</br>
 - You need to have a *Mongo Database* (Cluster Preferred)
 - You need a telthon string session using your phone numbers
 - You need to edit _menu.py Under modules if you want to put your own details.
-- You need to update _int.py if you want to add any new module.
+- You need to update _int_.py if you want to add any new module.
 - Hosting Area (Ubuntu/Heroku/Vps/Digitalocean)
 
 
