@@ -1,11 +1,11 @@
-from Evie import tbot, CMD_HELP
-from Evie.events import register
-from Evie.function import can_change_info, is_admin
+from Harita import tbot, CMD_HELP
+from Harita.events import register
+from Harita.function import can_change_info, is_admin
 import os
 from telethon import custom, events, Button
 from telethon.tl import types, functions
-from Evie import *
-from Evie.modules.sql.notes_sql import add_note, get_all_notes, get_notes, remove_note
+from Harita import *
+from Harita.modules.sql.notes_sql import add_note, get_all_notes, get_notes, remove_note
 
 
 @tbot.on(events.NewMessage(pattern=r"\#(\S+)"))
