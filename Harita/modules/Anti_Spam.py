@@ -187,11 +187,13 @@ async def _(event):
     if event.is_private:
         return
     approved_userss = approved_users.find({})
+    for ch in approved_userss:
+        iid = ch["id"]
     if approved_userss:
     for ch in approved_userss: 
         iid = ch["id"] 
         userss = ch["user"]
-   else:
+    else:
     iid = None
     userss = None  
     if event.is_group:
