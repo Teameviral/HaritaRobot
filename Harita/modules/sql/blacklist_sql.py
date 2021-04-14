@@ -2,8 +2,8 @@ import threading
 
 from sqlalchemy import Column, String, UnicodeText, distinct, func
 
-from Evie.modules.sql import BASE
-from Evie.modules.sql import SESSION
+from Harita.modules.sql import BASE
+from Harita.modules.sql import SESSION
 
 
 class BlackListFilters(BASE):
