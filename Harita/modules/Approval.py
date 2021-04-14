@@ -16,7 +16,7 @@ client = MongoClient(MONGO_DB_URI)
 db = client["Harita"]
 approved_users = db.approve
 
-from Evie.function import is_register_admin, can_approve_users
+from Harita.function import is_register_admin, can_approve_users
 
 
 async def get_user_from_event(event):
