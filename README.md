@@ -19,6 +19,10 @@ An Telethon Based Telegram Group Management Bot
   <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
 </p>
 
+## Support
+<a href="https://t.me/CODETECHORG"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
+<a href="https://t.me/THECODETECH"><img src="https://img.shields.io/badge/Join-Telegram%20Group-blue.svg?logo=telegram"></a>
+
 ## Credits
 
 ▪️ [PaulSonOfLars](https://github.com/PaulSonOfLars/tgbot)
