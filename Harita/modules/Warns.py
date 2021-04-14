@@ -1,16 +1,16 @@
-from Evie import CMD_HELP, tbot, BOT_ID
+from Harita import CMD_HELP, tbot, BOT_ID
 import html
 import os
 from telethon import *
 from telethon.tl import *
-from Evie.events import register
-import Evie.modules.sql.warns_sql as sql
+from Harita.events import register
+import Harita.modules.sql.warns_sql as sql
 from telethon.tl.types import ChatBannedRights
 from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import *
-import Evie.modules.sql.rules_sql as rulesql
+import Harita.modules.sql.rules_sql as rulesql
 
 
 async def is_register_admin(chat, user):
