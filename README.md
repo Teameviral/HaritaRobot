@@ -33,7 +33,14 @@ Harita is a Telegram group managment bot made using Telethon which makes it mode
 - Easy To Use
 
 Can be found on Telegram as [@HaritaRobot](https://t.me/HaritaRobot)</br>
-This runs the stable version, aka [production](https://github.com/TeamEviral/HaritaRobot/tree/main) branch.
+
+## Requirements
+- You need to have a *Mongo Database* (Cluster Preferred)
+- You need a telthon string session using your phone numbers
+- You need to edit _menu.py Under modules if you want to put your own details.
+- You need to update _int.py if you want to add any new module.
+- Hosting Area (Ubuntu/Heroku/Vps/Digitalocean)
+
 
 ## Support
 <a href="https://t.me/CODETECHORG"><img src="https://img.shields.io/badge/Join-Telegram%20Channel-red.svg?logo=Telegram"></a>
@@ -42,6 +49,21 @@ This runs the stable version, aka [production](https://github.com/TeamEviral/Har
 # String Session -Telethon
 ### Click The Below Link to Get String Session🧨
 [Run on Repl.it](https://replit.com/@Teameviral/GenerateStringSession-1)
+
+## How to setup
+
+First Step!
+- Star **⭐** the repository!!
+
+It really motivates me to continue this project further.
+
+### Deploy to Heroku
+- Get your `API_ID` and `API_HASH` from [here](https://my.telegram.org/)
+- Get your Bot Token from [@BotFather](https://t.me/BotFather)
+and click the below button!  <br />
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamEviral/HaritaRobot)
+
 
 ## Credits
 
