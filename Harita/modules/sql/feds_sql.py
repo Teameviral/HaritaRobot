@@ -1,5 +1,5 @@
 import threading
-from Evie.modules.sql import BASE, SESSION
+from Harita.modules.sql import BASE, SESSION
 from sqlalchemy import Boolean, Column, Integer, String, UnicodeText
 
 
