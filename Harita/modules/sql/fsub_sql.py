@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Numeric, String
 
-from Harita import BASE, SESSION
+from . import BASE, SESSION
 
 
 class forceSubscribe(BASE):
