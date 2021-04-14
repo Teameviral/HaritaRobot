@@ -1,5 +1,5 @@
 from sqlalchemy import Column, UnicodeText, String
-from Evie.modules.sql import BASE, SESSION
+from Harita.modules.sql import BASE, SESSION
 
 
 class NOTES(BASE):
