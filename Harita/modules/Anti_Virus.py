@@ -85,7 +85,7 @@ async def virusscan(event):
         await gg.edit("Some error occurred..")
         return
 #Eval
-from Evie import ubot, OWNER_ID
+from Harita import ubot, OWNER_ID
 from telethon import events
 
 
