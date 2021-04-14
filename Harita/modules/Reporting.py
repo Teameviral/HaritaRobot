@@ -1,7 +1,7 @@
 import html
 import os
-from Evie import tbot
-from Evie import *
+from Harita import tbot
+from Harita import *
 from telethon import events, Button
 from telethon.tl import functions
 from telethon.tl import types
@@ -9,9 +9,9 @@ from telethon.tl.functions.channels import EditBannedRequest
 from telethon.tl.types import *
 from telethon.errors import UserNotParticipantError
 from pymongo import MongoClient
-from Evie import MONGO_DB_URI
-from Evie.events import register
-from Evie.modules.sql import reporting_sql as sql
+from Harita import MONGO_DB_URI
+from Harita.events import register
+from Harita.modules.sql import reporting_sql as sql
 
 BANNED_RIGHTS = ChatBannedRights(
     until_date=None,
@@ -26,7 +26,7 @@ BANNED_RIGHTS = ChatBannedRights(
 )
 
 
-from Evie.function import is_admin, can_change_info
+from Harita.function import is_admin, can_change_info
 
 
 async def can_ban_users(chat, user):
