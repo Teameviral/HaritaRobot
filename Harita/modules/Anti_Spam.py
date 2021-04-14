@@ -190,6 +190,8 @@ async def _(event):
     for ch in approved_userss:
         iid = ch["id"]
         userss = ch["user"]
+    else: iid = None
+          userss = None
     if event.is_group:
         if await is_register_admin(event.input_chat, event.message.sender_id):
             return
