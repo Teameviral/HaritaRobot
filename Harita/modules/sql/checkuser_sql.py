@@ -3,7 +3,7 @@ from sqlalchemy import (
     String,
     Integer
 )
-from Evie.modules.sql import (
+from Harita.modules.sql import (
     SESSION,
     BASE
 )
