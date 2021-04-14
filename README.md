@@ -18,3 +18,13 @@ An Telethon Based Telegram Group Management Bot
 <p align="center">
   <img src="https://media.giphy.com/media/Qv9p77hBf48DutDzvr/giphy.gif">
 </p>
+
+## Credits
+
+▪️ [PaulSonOfLars](https://github.com/PaulSonOfLars/tgbot)
+▪️ [Julia](https://github.com/AvishekBhattacharjee/AlexaFamilyBot)
+▪️ [Avishek](https://github.com/AvishekBhattacharjee)
+▪️ [MrYacha](https://github.com/MrYacha)
+▪️ [E V I R A L](https://t.me/Eviral)
+▪️ [Amarnath c](https://github.com/Amarnathcdj)
+
