@@ -193,7 +193,7 @@ async def _(event):
     if event.is_group:
         if await is_register_admin(event.input_chat, event.message.sender_id):
             return
-        if str(event.sender_id) in str(userss) and str(event.chat_id) in str(iid):
+        elif event.chat_id == iid and event.sender_id == userss:
             return
         pass
     else:
