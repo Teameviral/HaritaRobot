@@ -1,7 +1,7 @@
 #Soon!
 
 #    MissJuliaRobot (A Telegram Bot Project)
-#    Copyright (C) 2019-2021 Julia (https://t.me/MissJulia_Robot)
+#    Copyright (C) 2019-2021 Julia (https://t.me/MissJuliaRobot)
 
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU Affero General Public License as published by
@@ -16,10 +16,10 @@
 #    along with this program.  If not, see < https://www.gnu.org/licenses/agpl-3.0.en.html/ >.
 
 
-from Evie import tbot
+from Harita import tbot
 from datetime import datetime
 from pymongo import MongoClient
-from Evie import MONGO_DB_URI, OWNER_ID
+from Harita import MONGO_DB_URI, OWNER_ID
 from telethon import events, types
 import asyncio
 
