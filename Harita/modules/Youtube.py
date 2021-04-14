@@ -1,10 +1,10 @@
 from youtubesearchpython import SearchVideos, VideosSearch
-from Evie import tbot, CMD_HELP
+from Harita import tbot, CMD_HELP
 from html import unescape
 import os
 from telethon import types, Button, custom, events
 from telethon.tl import functions
-from Evie.events import register
+from Harita.events import register
 import re
 
 from re import findall
