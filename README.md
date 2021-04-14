@@ -25,6 +25,7 @@ An Telethon Based Telegram Group Management Bot
 
 ## Credits
 
+▪️ [Lonami](https://github.com/Lonami)
 ▪️ [PaulSonOfLars](https://github.com/PaulSonOfLars/tgbot)
 ▪️ [Julia](https://github.com/AvishekBhattacharjee/AlexaFamilyBot)
 ▪️ [Avishek](https://github.com/AvishekBhattacharjee)
