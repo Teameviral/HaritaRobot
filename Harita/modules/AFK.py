@@ -1,10 +1,10 @@
 import os
-from Evie import tbot, CMD_HELP
-from Evie.modules.sql import afk_sql as sql
+from Harita import tbot, CMD_HELP
+from Harita.modules.sql import afk_sql as sql
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import types
 from telethon.tl import functions
-from Evie.events import register
+from Harita.events import register
 from telethon import events
 import random
 options = [
