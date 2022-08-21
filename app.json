@@ -9,7 +9,7 @@
          "manager",
          "Miley"
       ],   
-   "repository": "https://github.com/TeamEviral/HaritaRobot",
+   "repository": "https://github.com/Alfaonetech55/HaritaRobot",
    "addons": [
       {
          "options": {
@@ -86,6 +86,6 @@
       "manager",
       "Miley"
    ],
-   "name": "Harita",
-   "repository": "https://github.com/TeamEviral/HaritaRobot"
+   "name": "kanimangalam",
+   "repository": "https://github.com/alfaonetech55/HaritaRobot"
 }
