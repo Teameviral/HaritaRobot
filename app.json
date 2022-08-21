@@ -1,5 +1,5 @@
 {
-      "name": "Harita",
+      "name": "alfaonetech55",
       "description": "A Telethon based Telegram group management bot.",
       "logo": "https://telegra.ph/file/8f121a6cbded3de42ffdd.jpg",
       "keywords": [
@@ -9,7 +9,7 @@
          "manager",
          "Miley"
       ],   
-   "repository": "https://github.com/TeamEviral/HaritaRobot",
+   "repository": "https://github.com/Alfaonetech55/alfaonetech55",
    "addons": [
       {
          "options": {
@@ -46,7 +46,7 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "Eviral"
+         "value": "alfaonetech55"
       },
       "STRING_SESSION": {
          "description": "Your Telethon String Session. Create it by repl.it.",
@@ -76,7 +76,7 @@
       "UPSTREAM_REPO_URL": {
          "description": "Required for Update module",
          "required": true,
-         "value": "https://github.com/TeamEviral/HaritaRobot"
+         "value": "https://github.com/Alfaonetech55/alfaonetech55"
       }
    },
    "keywords": [
@@ -86,6 +86,6 @@
       "manager",
       "Miley"
    ],
-   "name": "Harita",
-   "repository": "https://github.com/TeamEviral/HaritaRobot"
+   "name": "Alfaonetech55",
+   "repository": "https://github.com/alfaonetech55/Alfaonetech55"
 }
